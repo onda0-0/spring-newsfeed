@@ -1,8 +1,11 @@
 package com.sparta.springnewsfeed.user;
 
-import com.sparta.springnewsfeed.auth.LoginRequestDto;
 import com.sparta.springnewsfeed.common.ResponseCode;
 import com.sparta.springnewsfeed.common.S3Uploader;
+import com.sparta.springnewsfeed.user.dto.SignupRequestDto;
+import com.sparta.springnewsfeed.user.dto.UpdatePasswordRequestDto;
+import com.sparta.springnewsfeed.user.dto.UpdateProfileRequestDto;
+import com.sparta.springnewsfeed.user.dto.UserInquiryResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

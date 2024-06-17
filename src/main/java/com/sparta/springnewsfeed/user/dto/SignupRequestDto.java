@@ -1,4 +1,4 @@
-package com.sparta.springnewsfeed.user;
+package com.sparta.springnewsfeed.user.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -6,9 +6,11 @@ import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.Value;
 
 @Getter
 @Setter
+@Value
 public class SignupRequestDto {
 
     @NotBlank(message = "사용자 ID는 필수 입력 값입니다.")

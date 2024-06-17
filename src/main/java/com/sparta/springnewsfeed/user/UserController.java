@@ -1,11 +1,14 @@
 package com.sparta.springnewsfeed.user;
 
 import com.sparta.springnewsfeed.auth.JwtUtil;
-import com.sparta.springnewsfeed.auth.LoginRequestDto;
 import com.sparta.springnewsfeed.auth.UserDetailsImpl;
 import com.sparta.springnewsfeed.auth.WithdrawRequestDto;
 import com.sparta.springnewsfeed.common.HttpStatusResponseDto;
 import com.sparta.springnewsfeed.common.ResponseCode;
+import com.sparta.springnewsfeed.user.dto.SignupRequestDto;
+import com.sparta.springnewsfeed.user.dto.UpdatePasswordRequestDto;
+import com.sparta.springnewsfeed.user.dto.UpdateProfileRequestDto;
+import com.sparta.springnewsfeed.user.dto.UserInquiryResponseDto;
 import io.jsonwebtoken.Claims;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;

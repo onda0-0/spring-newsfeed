@@ -2,6 +2,7 @@ package com.sparta.springnewsfeed.user;
 
 import com.sparta.springnewsfeed.common.HttpStatusResponseDto;
 import com.sparta.springnewsfeed.common.ResponseCode;
+import com.sparta.springnewsfeed.user.dto.EmailVerificationRequestDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
